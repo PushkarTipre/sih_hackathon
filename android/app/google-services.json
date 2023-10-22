@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "688130460463",
+    "project_id": "sih-hack-a3e98",
+    "storage_bucket": "sih-hack-a3e98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688130460463:android:e64092cd5ccce008a8afda",
+        "android_client_info": {
+          "package_name": "com.example.sih_hack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj9gs63fagBeKMk86U1dmTjaotvA2X27Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
