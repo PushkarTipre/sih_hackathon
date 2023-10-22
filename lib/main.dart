@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:sih_hack/firebase_options.dart';
+import 'package:sih_hack/reuseableWidgets/user_imagepicker.dart';
 import 'package:sih_hack/screens/sih_camerascreen.dart';
 import 'package:sih_hack/screens/sih_login.dart';
 import 'package:sih_hack/screens/sih_loadingspalsh.dart';
@@ -26,7 +27,7 @@ class sih_mainScreen extends StatelessWidget {
               return sih_loadingSplash();
             }
             if (snapshot.hasData) {
-              return sih_cameraScreen();
+              return sih_user_ImagePicker();
             }
 
             return sih_Login();
